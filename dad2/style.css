@@ -1,0 +1,15 @@
+img {
+    border-radius: 30px;
+}
+.title {
+    text-align: center;
+}
+.card {
+    border: 1px solid black;
+}
+.icon {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0px;
+}
