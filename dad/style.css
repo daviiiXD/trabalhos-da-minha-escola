@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Tai+Heritage+Pro&display=swap');
+body {
+    padding: 0px;
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+.title {
+    text-align: center;
+    font-size: 30pt;
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 30px;
+    border: 5px solid red;
+    -webkit-box-shadow: 0px 0px 30px -10px #000000; 
+    box-shadow: 0px 0px 30px -10px #000000;
+
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.icon {
+    width: 50%;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.card {
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid red;
+    margin-left: 25px;
+    color: blackfont-family: 'Open Sans', sans-serif;;
+
+    padding: 20px;
+
+    -webkit-box-shadow: 0px 0px 30px -10px #000000; 
+    box-shadow: 0px 0px 30px -10px #000000;
+
+    -webkit-box-shadow: inset 0px 0px 30px -10px #000000; 
+    box-shadow: inset 0px 0px 30px -10px #000000;
+
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    display: flex;
+}
+p {
+    font-size: 12pt;
+    text-align: justify;
+}
+footer {
+    margin-top: 30px;
+    background-color: rgb(100, 100, 100);
+    border-radius: 30px;
+    border: 5px solid red;
+    -webkit-box-shadow: 0px 0px 30px -10px #000000; 
+    box-shadow: 0px 0px 30px -10px #000000;
+
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    text-align: center;
+    font-size: 50pt;
+}
+.contact {
+    text-align: center;
+    font-size: 14pt;
+}
+@keyframes color {
+    0% {
+        border-color: rgb(255, 0, 0);
+    }
+    25% {
+        border-color: rgb(0, 255, 0);
+    }
+    50% {
+        border-color: rgb(0, 195, 255);
+    }
+    75% {
+        border-color: rgb(255, 0, 255);
+    }
+    100% {
+        border-color: rgb(255, 0, 0);
+    }
+}
